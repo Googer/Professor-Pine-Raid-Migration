@@ -49,12 +49,14 @@ const storage = require('node-persist'),
       pokemon.maxBoostedCP = pokemon.maxBoostedCp;
       pokemon.minBaseCP = pokemon.minBaseCp;
       pokemon.minBoostedCP = pokemon.minBoostedCp;
+      pokemon.boostedConditions = pokemon.boostConditions;
 
       delete pokemon.bossCp;
       delete pokemon.maxBaseCp;
       delete pokemon.maxBoostedCp;
       delete pokemon.minBaseCp;
       delete pokemon.minBoostedCp;
+      delete pokemon.boostConditions;
     }
 
     party.type = 'raid';

@@ -3,3 +3,8 @@ node_modules/
 
 # ignore IDEA workspace file
 .idea/workspace.xml
+
+# ignore input, output, and log files
+*.log
+raids/
+parties/
