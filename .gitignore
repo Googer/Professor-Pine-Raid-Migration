@@ -1,0 +1,5 @@
+# ignore node files
+node_modules/
+
+# ignore IDEA workspace file
+.idea/workspace.xml

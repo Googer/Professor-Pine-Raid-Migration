@@ -1,0 +1,20 @@
+{
+  "name": "Professor-Pine-Data-Migration",
+  "version": "1.0.0",
+  "description": "Professor Pine Raid Data Migration Tool",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "loglevel": "^1.6.1",
+    "loglevel-prefix-persist": "^1.0.3",
+    "node-persist": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "debug": "node %NODE_DEBUG_OPTION% index.js"
+  },
+  "author": "Matt Legowski",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/Googer/Professor-Pine-Raid-Migration#readme"
+}
